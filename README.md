@@ -5,7 +5,7 @@ Q3DObserver is a multi-platform C++11 library based on Qt that eases the creatio
 
 Q3DObserver provides some of the typical 3D viewer functionalities, such as an orbit camera which can be rotated, scaled and translated using the mouse. Based on the Qt toolkit, it compiles on any architecture (Unix-Linux, Mac, Windows). Q3DObserver does not display 3D scenes in various formats, but it can be the base for the coding of such a viewer.
 
-Q3DObserver is licensed under [zlib license](LICENSE.txt). OpenGL knowledge is NOT required to use this library.
+Q3DObserver is licensed under [ZLib license](LICENSE.txt). OpenGL knowledge is NOT required to use this library.
 
 ![screenshot of some 3D shapes rendered with Q3DObserver](screenshot.png?raw=true)
 
@@ -32,7 +32,7 @@ make
 
 * Show 3D figures such as points, lines, triangles and text strings without writing OpenGL code.
 * Orbit camera which can be rotated, scaled and translated using the mouse.
-* Open source commercial friendly license (zlib): compatible with open and closed source projects.
+* Open source commercial friendly license (ZLib): compatible with open and closed source projects.
 
 ## Usage
 
