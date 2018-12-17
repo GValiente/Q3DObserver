@@ -20,6 +20,7 @@
 
 #include "q3dobserver.h"
 
+#include <cmath>
 #include <QVBoxLayout>
 #include <QMouseEvent>
 #include <QOpenGLShaderProgram>

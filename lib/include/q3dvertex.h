@@ -28,7 +28,7 @@ class Q3DVertex
 {
 
 public:
-    Q3DVertex() noexcept;
+    Q3DVertex() = default;
 
     Q3DVertex(const QVector3D& position, const Q3DColor& color) noexcept;
 

@@ -20,6 +20,7 @@
 
 #include "q3dcamera.h"
 
+#include <cmath>
 #include <QMatrix4x4>
 
 QMatrix4x4 Q3DCamera::modelView() const noexcept

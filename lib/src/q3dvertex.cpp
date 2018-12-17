@@ -22,10 +22,6 @@
 
 #include <QColor>
 
-Q3DVertex::Q3DVertex() noexcept
-{
-}
-
 Q3DVertex::Q3DVertex(const QVector3D& position, const Q3DColor& color) noexcept :
     _position(position),
     _color(color)

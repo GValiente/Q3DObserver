@@ -20,6 +20,7 @@
 
 #include "q3dtextwidget.h"
 
+#include <cmath>
 #include <QPainter>
 #include "Q3DObserver"
 
