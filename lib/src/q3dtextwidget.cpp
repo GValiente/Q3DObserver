@@ -79,6 +79,12 @@ void Q3DTextWidget::paintEvent(QPaintEvent* event)
     }
 
     auto parent = dynamic_cast<Q3DObserver*>(parentWidget());
+
+    if(! parent)
+    {
+        return;
+    }
+
     const auto& projection = parent->projection();
     const auto& modelView = parent->modelView();
     auto viewport = rect();
